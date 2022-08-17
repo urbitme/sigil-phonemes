@@ -6,9 +6,9 @@ import useClickAway from 'components/util/useClickAway'
 import DarkModeToggle from 'components/widgets/DarkModeToggle'
 
 const links = [
-  { href: "/one", title: "One" },
-  { href: "/two", title: "Two" },
-  { href: "/three", title: "Three" },
+  { href: "/", title: "One" },
+  { href: "/", title: "Two" },
+  { href: "/", title: "Three" },
 ]
 
 const Header = ({dark}) => {
@@ -39,7 +39,7 @@ const Header = ({dark}) => {
                     </g>
                   </svg>
                 </span>
-                title
+                sigil
               </h2>
             </a>
           </Link>
