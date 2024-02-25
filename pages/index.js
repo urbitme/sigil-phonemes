@@ -1,4 +1,4 @@
-import { sigil, reactRenderer } from '@tlon/sigil-js'
+import { sigil, reactRenderer } from 'urbitme-sigil-js'
 import Layout, { Row, Main, Container } from 'components/layouts/WideStretched'
 import Header from 'components/headers/Underline'
 
